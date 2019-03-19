@@ -271,7 +271,7 @@ namespace WebsiteBanGiaySneaker.Controllers
                     ctHD.DonGia = (decimal)item.dongia;
                     db.CHITIETHDs.Add(ctHD);
                     //string toAddress = kh.Email;
-                    //string subject = "Yugo Shoes";
+                    //string subject = "GooFlow Shoes";
                     //string body = "Cảm ơn bạn đã đặt hàng tại Shop" + "<br/>" + "Mã Hóa Đơn:" + dh.MaDH + "<br/>" + "Tên Sản Phẩm:" + item.tensp + "<br/>" + "Số Lượng:" + item.soluong + "<br/>" + "Đơn Giá:" + item.dongia + "<br/>" + "Thành Tiền:" + item.thanhtien;
                     //SendEmail(toAddress, subject, body);
                 }
@@ -311,7 +311,7 @@ namespace WebsiteBanGiaySneaker.Controllers
                     ctHD.DonGia = (decimal)item.dongia;
                     db.CHITIETHDs.Add(ctHD);
                     //string toAddress = kh.Email;
-                    //string subject = "Yugo Shoes";
+                    //string subject = "GooFlow Shoes";
                     //string body = "Cảm ơn bạn đã đặt hàng tại Shop" + "<br/>" + "Mã Hóa Đơn:" + dh.MaDH + "<br/>" + "Tên Sản Phẩm:" + item.tensp + "<br/>" + "Số Lượng:" + item.soluong + "<br/>" + "Đơn Giá:" + item.dongia + "<br/>" + "Thành Tiền:" + item.thanhtien;
                     //SendEmail(toAddress, subject, body);
                 }
@@ -324,7 +324,7 @@ namespace WebsiteBanGiaySneaker.Controllers
 
         public void SendEmail(string address, string subject, string message)
         {
-            string email = "yugoshoes97@gmail.com";
+            string email = "GooFlowshoes97@gmail.com";
             string password = "vokykaka9xpro";
             var loginInfo = new NetworkCredential(email, password);
             var msg = new MailMessage();
